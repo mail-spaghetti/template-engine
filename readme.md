@@ -61,7 +61,7 @@ mvn  -DSERVER_SERVLET_CONTEXT_PATH="/pdfmaker" -DACCESSTOKEN="" -DHOSTNAME="loca
 **Checkout the results**
 
 ```bash
-   curl -d 'data={"customer":{"name":"Mohammad Chehab"},"orders":[{"id":1,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":2,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":3,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"}]}' 'http://localhost:8086/pdfmaker/pdf/create?template=your-order&title=Orders'
+   curl -d 'data={"customer":{"name":"John Smith"},"orders":[{"id":1,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":2,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":3,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"}]}' 'http://localhost:8086/pdfmaker/pdf/create?template=your-order&title=Orders'
 ```
 
 **Notes**
