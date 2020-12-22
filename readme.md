@@ -1,4 +1,4 @@
-# Template Engime 
+# Template Engine 
 The following is a curl command on how to generate a template and pass parameters. You must request the template param and the other tokens which are requested by the template.
 
 
