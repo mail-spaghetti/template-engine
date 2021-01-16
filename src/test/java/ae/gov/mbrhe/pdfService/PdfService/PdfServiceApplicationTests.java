@@ -1,5 +1,5 @@
 /*
-package com.mchehab.services.pdfService.PdfService;
+package com.mailspaghetti.services.pdfService.PdfService;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
