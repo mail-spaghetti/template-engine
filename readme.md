@@ -5,7 +5,7 @@
 
 **Creating an Email Templates**
 
-Jump to [Email Repo](https://github.com/mailspeghatti/html-templates) to checkout how email templates are created.
+Jump to [Email Repo](https://github.com/mailspaghetti/html-templates) to checkout how email templates are created.
 
 ```html
 <html>
