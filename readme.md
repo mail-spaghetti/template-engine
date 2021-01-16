@@ -1,8 +1,10 @@
 # Template Engine 
-The following is a curl command on how to generate a template and pass parameters. You must request the template param and the other tokens which are requested by the template.
+
+> The following is a curl command on how to generate a template and pass parameters. You must request the template param and the other tokens which are requested by the template.
 
 
 **Creating an Email Templates**
+
 Jump to [Email Repo](https://github.com/mail-speghatti/email-templates) to checkout how email templates are created.
 
 ```html
@@ -55,13 +57,13 @@ mvn clean package
 ```
 
 ```bash
-mvn  -DSERVER_SERVLET_CONTEXT_PATH="/pdfmaker" -DACCESSTOKEN="" -DHOSTNAME="localhost" -DCHROMEPATH="/opt/chromedriver-74.0.3729.6"
+mvn  -DSERVER_SERVLET_CONTEXT_PATH="/template-engine" -DACCESSTOKEN="" -DHOSTNAME="localhost" -DCHROMEPATH="/opt/chromedriver-74.0.3729.6"
 ```
 
 **Checkout the results**
 
 ```bash
-   curl -d 'data={"customer":{"name":"John Smith"},"orders":[{"id":1,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":2,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":3,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"}]}' 'http://localhost:8086/pdfmaker/pdf/create?template=your-order&title=Orders'
+   curl -d 'data={"customer":{"name":"John Smith"},"orders":[{"id":1,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":2,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"},{"id":3,"description":"Lorem ipsum","qty":1,"price":"1.5","total":"1.5"}]}' 'http://localhost:8086/template-engine/pdf/create?template=demo&title=Orders'
 ```
 
 **Notes**
