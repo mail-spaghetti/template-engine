@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.6.3
+Built-By: mchehab
+Build-Jdk: 15.0.1
+Implementation-Title: pdfService
+Implementation-Version: 1.0.0
+Implementation-Vendor-Id: com.mailspaghetti
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/pdfService
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.mailspaghetti.services.templateengine.TemplateEngineApp
+ lication
+Spring-Boot-Version: 2.0.1.RELEASE
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+

@@ -1,5 +1,5 @@
 /*
-package com.mailspaghetti.services.pdfService.PdfService;
+package com.mailspaghetti.services.templateengine
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
