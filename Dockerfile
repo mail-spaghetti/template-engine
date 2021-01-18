@@ -26,6 +26,6 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.stor
 	&& chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION \
 	&& ln -fs /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
     
-ADD target/pdfService-1.0.0.jar src/www/app.jar
+ADD target/templateEngine-1.0.0.jar src/www/app.jar
 EXPOSE 8086
 ENTRYPOINT ["java", "-jar","src/www/app.jar"]

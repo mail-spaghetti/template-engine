@@ -72,6 +72,6 @@ The project uses [headless-chrome](https://developers.google.com/web/updates/201
 **Run it in a container**
 
 ```bash
- docker build --rm -f "Dockerfile" -t pdfservice:tag .
+ docker build --rm -f "Dockerfile" -t templateEngine:tag .
  docker run -e SERVER_SERVLET_CONTEXT_PATH="/pdfmaker" -e ACCESSTOKEN="" -e HOSTNAME="localhost" -e CHROMEPATH="/opt/chromedriver-74.0.3729.6"  -p 8080:8080
  ```
