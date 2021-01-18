@@ -33,7 +33,7 @@ webapp/
 target/classes
 target/*
 
-.vscode/
+
 
 src/.classpath
 src/.DS_Store

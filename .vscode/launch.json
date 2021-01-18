@@ -1,0 +1,17 @@
+{
+     "version": "0.2.0",
+    "configurations": [
+       {
+            "type": "java",
+            "name": "Launch TemplateEngine",
+            "request": "launch",
+            "mainClass": "com.mailspaghetti.services.templateengine.TemplateEngineApplication",
+            "projectName": "TemplateEngine",
+            "env": {
+                "HOSTNAME" : "localhost",
+                "CHROMEPATH": "~/chromedriver/chromedriver",
+                "ACCESSTOKEN": ""
+            }
+        }
+    ]
+}
